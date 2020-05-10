@@ -134,7 +134,39 @@ h2, h3 {
   color: #FFF;
   font-size: 50px;
   margin: auto;
-
 }
 /* fifth example end */
+
+/* sixth example */
+
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+}
+
+.second {
+  background-color: wheat;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+  background-color: teal;
+  flex: 1;
+}
+
+.second-b {
+  background-color: turquoise;
+  flex: 1;
+}
+/* sixth example end */
+
 
