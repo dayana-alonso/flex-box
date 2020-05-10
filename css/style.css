@@ -71,7 +71,7 @@ h2, h3 {
 
 /* third example */
 .call-outs-container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 40px auto 0 auto;
 }
 
@@ -92,7 +92,31 @@ h2, h3 {
 .call-out:nth-child(1) {background-color: #c0dbe2;}
 .call-out:nth-child(2) {background-color: #cdf1c3;}
 .call-out:nth-child(3) {background-color: #ccb9da;}
-
 /* third example end */
 
+
+/* fourth example */
+.fixed-size-container {
+  max-width: 1400px; 
+  margin: 40px auto 0 auto;
+  background-color: #FFF;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fixed-size {
+  background-color: #990b47;
+  color: #FFF;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+/* fourth example end*/
 
