@@ -14,6 +14,12 @@ body {
   padding-bottom: 100px;
 }
 
+
+h2, h3 {
+  margin: 0 0 .75em 0;
+}
+
+
 /* first example name and facorite color */
 .container {
   max-width: 750px;
@@ -30,5 +36,48 @@ body {
 .form-row label {
   padding-right: 10px;
 }
+
+.form-row input {
+  flex: 1;
+}
 /* first example name and facorite color end */
+
+.column-layout {
+  max-width: 1300px;
+  background-color: #FFF;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+
+/* second example */
+
+.main-column {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+}
+/* second example end */
+
+/* third example */
+.call-outs-container {
+  max-width: 1300px;
+  margin: 40px auto 0 auto;
+}
+
+.call-out {
+
+}
+/* third example end*/
+
 
