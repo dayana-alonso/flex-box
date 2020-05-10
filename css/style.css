@@ -120,3 +120,21 @@ h2, h3 {
 }
 /* fourth example end*/
 
+
+/* fifth example */
+.banner {
+  height: 400px;
+  max-width: 700px;
+  margin: 40px auto 40px auto;
+  background-color: blueviolet;
+  display: flex;
+}
+
+.center-me {
+  color: #FFF;
+  font-size: 50px;
+  margin: auto;
+
+}
+/* fifth example end */
+
