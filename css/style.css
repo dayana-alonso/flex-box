@@ -153,19 +153,28 @@ h2, h3 {
 
 .second {
   background-color: wheat;
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
 .second-a {
   background-color: teal;
   flex: 1;
+  /* order: 3; */
 }
 
 .second-b {
   background-color: turquoise;
   flex: 1;
+  /* order: 2; */
+}
+
+.second-c {
+  background-color: thistle;
+  flex: 1;
+  /* order: 1; */
+  
 }
 /* sixth example end */
 
