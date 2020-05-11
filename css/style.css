@@ -299,3 +299,43 @@ h2, h3 {
 }
 
 /* JUSTIFY-CONTENT START END*/
+
+/* FLEX-DIRECTION */
+
+.flex_direction_container {
+  max-width: 1400px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  background-color: limegreen;
+  }
+
+.flex-row {
+  flex-direction: row;
+  background-color: magenta;
+  color: #000;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* FLEX-DIRECTION END*/
