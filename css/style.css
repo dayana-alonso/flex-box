@@ -421,6 +421,74 @@ h2, h3 {
   align-items: baseline;
   background-color: burlywood;
 }
-
-
 /* align-items ends*/
+
+
+/* align-content*/
+/* align-content: flex-start | flex-end | center | space-between | space-around | stretch */
+.align-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 120px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid silver;
+  margin-top: 10px;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+
+.align-content-item {
+  background: tomato;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex-start {
+  align-content: flex-start; 
+}
+
+.flex-end {
+  align-content: flex-end; 
+}
+
+.center {
+  align-content: center;
+}
+
+.space-between {
+  align-content: space-between;
+}
+
+.space-around {
+  align-content: space-around;
+}
+
+.stretch {
+  align-content: stretch;
+  background-color: black;
+}
+
+.stretch li {
+  background-color: chartreuse;
+}
+/* align-content ends*/
