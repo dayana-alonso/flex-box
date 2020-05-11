@@ -270,19 +270,32 @@ h2, h3 {
 
 .flex-start {
   justify-content: flex-start;
+  background-color: darkcyan;
 }
 
 .flex-end {
   justify-content: flex-end;
+  background-color: darkorange;
 }
 
 .center {
   justify-content: center;
+  background-color: deeppink;
 }
 
 .space-between {
   justify-content: space-between;
+  background-color: lime;
 }
 
+.space-around {
+  justify-content: space-around;
+  background-color: cornflowerblue;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+  background-color: coral;
+}
 
 /* JUSTIFY-CONTENT START END*/
