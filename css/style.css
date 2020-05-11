@@ -374,7 +374,6 @@ h2, h3 {
   padding: 0;
   margin: 0;
   list-style: none;
-  
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -392,20 +391,37 @@ h2, h3 {
   margin: 5px;
   
   line-height: 50px;
-  color: white;
+  color: 000;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
 }
 
-.align_flex-start { 
+.align_flex_start { 
   align-items: flex-start; 
+  background-color: #FFF;
 }
 
 .flex-end {
   align-items: flex-end;
+  background-color: #990b47;
 }
 
+.flex-center {
+  align-items: center;
+  background-color: white;
+}
+
+.flex-stretch {
+  align-items: stretch;
+  background-color: aquamarine;
+}
+
+.flex-baseline {
+  align-items: baseline;
+  background-color: burlywood;
+
+}
 
 
 /* align-items ends*/
