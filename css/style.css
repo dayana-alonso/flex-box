@@ -120,58 +120,6 @@ h2, h3 {
 }
 /* fourth-A example end*/
 
-.flex-container {
-  max-width: 1400px; 
-  margin: 40px auto 0 auto;
-  list-style: none;
-  border: 1px solid silver;
-  padding: 30px 0;
-  display: flex;
-  background-color: tomato; 
-}
-
-.nowrap {
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background-color: wheat;
-  color: #000;
-  width: 150px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-  font-weight: bold;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.wrap {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.flex-item-wrap {
-  background-color: yellowgreen;
-  color: #000;
-  width: 150px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-  font-weight: bold;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.reverse-wrap {
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: space-around;
-}
-
 /* fifth example */
 .banner {
   height: 400px;
@@ -228,4 +176,105 @@ h2, h3 {
 }
 /* sixth example end */
 
+/* Flex: wrap  */
 
+/* Flex-container  */
+.flex-container {
+  max-width: 1400px; 
+  margin: 40px auto 0 auto;
+  list-style: none;
+  border: 1px solid silver;
+  padding: 30px 0;
+  display: flex;
+  background-color: tomato; 
+}
+
+/* Flex-container end */
+
+/* nowrap flex  */
+.nowrap {
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background-color: wheat;
+  color: #000;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* nowrap flex  end */
+
+/* wrap flex  */
+.wrap {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-item-wrap {
+  background-color: yellowgreen;
+  color: #000;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+/* wrap flex end */
+
+/* reverse wrap flex  */
+
+.reverse-wrap {
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+/* reverse wrap flex end */
+/* Flex: wrap end */
+
+
+/* JUSTIFY-CONTENT START*/
+
+.container-flex {
+  max-width: 1400px; 
+  list-style: none;
+  display: flex;
+  background-color: teal;
+  align-items: center;
+  margin: 40px auto 0 auto;
+  padding: 30px 0;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flexbox-item {
+  background-color: bisque;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  line-height: 100px;
+  color: #000;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+/* JUSTIFY-CONTENT START END*/
