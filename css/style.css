@@ -127,8 +127,7 @@ h2, h3 {
   border: 1px solid silver;
   padding: 30px 0;
   display: flex;
-  background-color: tomato;
-  
+  background-color: tomato; 
 }
 
 .nowrap {
@@ -147,6 +146,30 @@ h2, h3 {
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 20px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-item-wrap {
+  background-color: yellowgreen;
+  color: #000;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.reverse-wrap {
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* fifth example */
